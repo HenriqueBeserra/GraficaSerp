@@ -4,4 +4,5 @@ Esta parte do projeto é responsável por fazer a conexão com o
 banco de dados e trazer todas as informações possíveis.
 
 Banco de dados Supabase.
+...
 

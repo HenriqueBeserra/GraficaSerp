@@ -1,5 +1,4 @@
 
-
 .header-content {
     display: flex;
     width: 100%;
@@ -24,7 +23,9 @@
     gap: 20px;
 }
 
-.ihead {
+.ihead, a {
+    text-decoration: none;
+    color: rgb(0, 255, 42);
     font-size: 22px;
     color: rgb(42, 110, 165);
 }

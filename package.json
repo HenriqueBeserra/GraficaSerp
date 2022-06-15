@@ -1,27 +1,8 @@
 {
   "dependencies": {
-    "@supabase/supabase-js": "^1.35.3",
-    "nodemon": "^2.0.16"
+    "express": "^4.18.1"
   },
   "devDependencies": {
-    "express": "^4.18.1",
     "nodemon": "^2.0.16"
-  },
-  "name": "graficaserp",
-  "description": "Repositório do projeto do site da gráfica da serp",
-  "version": "1.0.0",
-  "main": "routes.js",
-  "scripts": {
-    "build": "nodemon routes.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/HenriqueBeserra/GraficaSerp.git"
-  },
-  "author": "Henrique Beserra",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/HenriqueBeserra/GraficaSerp/issues"
-  },
-  "homepage": "https://github.com/HenriqueBeserra/GraficaSerp#readme"
+  }
 }

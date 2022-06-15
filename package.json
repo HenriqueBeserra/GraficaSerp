@@ -14,7 +14,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon routes.js",
-    "build": "nodemon routes.js"
+    "build": "nodemon ./src/routes.js"
   },
   "repository": {
     "type": "git",

@@ -4,7 +4,7 @@
   "description": "\"Monitorando o sistema com node e express\"",
   "main": "index.js",
   "scripts": {
-    "build": "node index.js"
+    "build": "node ./rota/index.js"
   },
   "dependencies": {
     "express": "^4.18.1"

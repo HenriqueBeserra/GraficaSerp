@@ -13,5 +13,5 @@ app.get("/pedidos", (req, res) => {
 
 
 app.listen(port, () => {
-  console.log(`Example app listening on port http://localhost:${port}/homepage`)
+  console.log(`Example app listening on port ${port}/homepage`)
 })

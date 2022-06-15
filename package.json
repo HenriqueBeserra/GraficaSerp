@@ -13,8 +13,8 @@
   "main": "routes.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon ./src/home/homepage",
-    "build": "nodemon ./src/home/homepage"
+    "start": "nodemon routes.js",
+    "build": "nodemon routes.js"
   },
   "repository": {
     "type": "git",

@@ -43,6 +43,7 @@ body {
 .img-main-top {
     width: 100%;
     height: 30em;
+    margin: auto;
     border-bottom: 2px solid rgb(7, 34, 65);
 }
 

@@ -12,7 +12,7 @@
   "version": "1.0.0",
   "main": "routes.js",
   "scripts": {
-    "build": "nodemon ./src/routes.js"
+    "build": "nodemon routes.js"
   },
   "repository": {
     "type": "git",

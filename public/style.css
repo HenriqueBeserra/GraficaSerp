@@ -118,3 +118,65 @@ em {
     padding-bottom: 12px;
 }
 
+.localização {
+    width: 940px;
+    margin: 50px auto;
+}
+
+.localização h2 {
+    font-size: 2em;
+    padding: 10px 0 2px;
+    width: 17%;
+    border-bottom: 1px solid black;
+}
+
+.localização h4 { 
+    font-size: 1.2em;
+    padding: 10px 0 0;
+}
+
+.localização p {
+    font-size: 1.1em;
+    padding:0 0 15px ;
+}
+
+.localização-mapa iframe {
+    width: 100%;
+    border-radius: 15px;
+}
+
+footer {
+    background: linear-gradient(120deg, rgb(26, 26, 173), rgb(7, 7, 82), rgba(35, 35, 65, 0.979));
+}
+
+.icone-footer {
+    width: 18em;
+}
+
+footer section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 0 28px;
+}
+
+footer ul {
+    color: #f1f0f0;
+    font-size: 1.2em;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+footer li a {
+    color: aliceblue;
+}
+footer li a:hover {
+    color: rgb(231, 189, 133);
+}
+
+footer p {
+    color: white;
+    margin: 18px auto;
+}

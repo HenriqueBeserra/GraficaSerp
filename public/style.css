@@ -55,12 +55,12 @@ main section{
     border-bottom: 2px solid rgb(7, 34, 65);
 }
 
-/* Página de pedidos ~> */
+/* Página das revistas~> */
 .header-content-revista{
     display: flex;
     width: 100%;
     height: 40px;
-    min-width: 989px;
+    min-width: 900px;
     justify-content: center;
     gap: 18px;
     align-items: center;
@@ -76,14 +76,29 @@ main section{
     padding-right: 100px;
 }
 
-.container-fluid, #navbar  {
-    min-width: 989px;
+.container-fluid, #navbar {
+    min-width: 900px;
 }
 
 .d-flex button:hover {
     background-color: rgb(187, 187, 187);
 }
-/*Página de pedidos ~ ^^*/
+.conteúdo-main-revistas {
+    width: 90%;
+    margin: 0  auto;
+    min-width: 900px;
+}
+
+.img-main-revistas {
+    width: 100%;
+    min-width: 900px;
+    height: 40em;
+    margin: 20px auto;
+}
+@media screen {
+    
+}
+/*Página das revistas ~ ^^*/
 
 .main-box {
     width: 940px;

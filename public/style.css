@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+
 body {
     background-color: #f1f0f0;
+    font-family: 'Raleway', sans-serif;
 }
 main section{
     margin: 0 8px;
@@ -71,7 +75,9 @@ main section{
     color: white;
     font-size: 1.02em;
     margin: 5px;
+    font-family: 'Raleway', sans-serif;
 }
+
 .bootstrap-header .navbar-brand {
     padding-right: 100px;
 }
@@ -95,9 +101,47 @@ main section{
     height: 40em;
     margin: 20px auto;
 }
-@media screen {
+
+.conteudo-listaderevistas {
+    width: 1000px;
+    min-width: 900px;
+    margin: 80px auto;
+    text-align: center;
     
 }
+.revistas-ul {
+    display: flex;
+    justify-content: center;
+}
+
+.listaderevistas-tituo{
+    font-size: 3em;
+}
+.itens-revista-caixa {
+    width: 24em;
+    border-bottom: 0.2px solid rgba(49, 49, 49, 0.349);
+    margin: 20px 15px;
+    padding: 14px;
+    border-radius: 5px;
+    background-color: rgba(226, 217, 217, 0.185);
+}
+
+.view-revista {
+    display: flex;
+    flex-direction: column;
+    justify-content:left;
+}
+
+.view-revista h2, .descrição {
+    display: flex;
+    font-weight: lighter;
+    align-items: flex-start;
+}
+
+.img-view{
+    width: 14em;
+}
+
 /*Página das revistas ~ ^^*/
 
 .main-box {
@@ -137,7 +181,7 @@ em {
 }
 
 .main-text-graph{
-    width: 940px;
+    width: 900px;
     margin: 0 auto;
     
 }
@@ -148,8 +192,8 @@ em {
 
 
 .img-main-list {
-    width: 25em;
-    min-width: 100pxpx;
+    width: 21.2em;
+    min-width: 100px;
     display: inline-block;
     height: 22em;
     border-radius: 20px;

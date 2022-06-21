@@ -4,6 +4,7 @@
 body {
     background-color: #f1f0f0;
     font-family: 'Raleway', sans-serif;
+
 }
 main section{
     margin: 0 8px;
@@ -14,10 +15,10 @@ main section{
     width: 100%;
     height: 12em;
     align-items: center;
-    min-width: 944px;
     justify-content: space-around;
     background-color: rgb(201, 218, 230);
 }
+    
 
 .imagem-header {
     width: 14em;
@@ -53,7 +54,7 @@ main section{
 }
 
 .img-main-top {
-    min-width: 944px;
+   
     width: 100%;
     height: 30em;
     border-bottom: 2px solid rgb(7, 34, 65);
@@ -103,12 +104,14 @@ main section{
 }
 
 .conteudo-listaderevistas {
-    width: 1000px;
+    width: 100%;
     min-width: 900px;
     margin: 80px auto;
+    padding: 10px;
     text-align: center;
-    
+    background: linear-gradient(220deg, rgb(170, 159, 175), rgb(129, 158, 187), rgb(193, 193, 248));
 }
+
 .revistas-ul {
     display: flex;
     justify-content: center;
@@ -118,12 +121,12 @@ main section{
     font-size: 3em;
 }
 .itens-revista-caixa {
-    width: 24em;
+    width: 18em;
     border-bottom: 0.2px solid rgba(49, 49, 49, 0.349);
     margin: 20px 15px;
     padding: 14px;
-    border-radius: 5px;
-    background-color: rgba(226, 217, 217, 0.185);
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.712);
 }
 
 .view-revista {
@@ -139,10 +142,14 @@ main section{
 }
 
 .img-view{
-    width: 14em;
+    width: 16em;
+    margin-bottom: 30px;
+    border: 1px solid #52525252;
+    border-radius: 10px;
 }
 
 /*Página das revistas ~ ^^*/
+
 
 .main-box {
     width: 940px;
@@ -193,11 +200,10 @@ em {
 
 .img-main-list {
     width: 21.2em;
-    min-width: 100px;
     display: inline-block;
     height: 22em;
     border-radius: 20px;
-    box-shadow: -3px 2px 5px #015e7a75;
+    box-shadow: -4px 3px 6px #015e7a75;
     margin: 20px 60px;
 }
 
@@ -268,7 +274,6 @@ a .button-content p {
 
 footer {
     background: linear-gradient(120deg, rgb(26, 26, 173), rgb(7, 7, 82), rgba(35, 35, 65, 0.979));
-    min-width: 944px;
 }
 
 .icone-footer {
@@ -281,7 +286,7 @@ footer section {
     justify-content: center;
     flex-direction: column;
     padding: 0 0 28px;
-    min-width: 944px;
+  
 }
 
 footer ul {
@@ -302,4 +307,51 @@ footer li a:hover {
 footer p {
     color: white;
     margin: 18px auto;
+}
+
+@media screen and (max-width: 800px) {
+    body {
+        width: 100%;
+    }
+    .header-content, .main-lista, footer{
+        width: auto;
+        margin: 0, auto;
+    }
+    .header-content {
+        display: flex;
+        padding: auto;
+        height: 14em;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .imagem-header {
+        width: 5em;
+    }
+    .img-main-top {
+        height:14em ;
+    }
+    .main-content {
+        width: 100%;
+    }
+    .main-box, .main-text-graph, .localização {
+        width: 88%;
+    }
+    .img-main-list {
+        width: 18em;
+        height: 17em;
+        margin: 0 50px;
+    }
+    .localização-mapa {
+        width: auto;
+        margin: 0 auto;
+    }
+    .localização > h2 {
+        border-bottom: none;
+    }
+    footer ul {
+        font-size: 1em;
+        margin-left: 3%;
+    }
 }

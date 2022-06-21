@@ -77,7 +77,7 @@
     }
     .revistas-ul{
         width: 80%;
-        margin: 0 25px;
+        margin: 0 20px;
         display: flex;
         
     }
@@ -89,7 +89,7 @@
         font-size: 30px;
     }
     .itens-revista-caixa {
-        width: 10em;
+        width: 5em;
         height: 8em;
         margin: 0 3px;
         display: flex;
@@ -98,7 +98,7 @@
         
     }
     .img-view {
-        width: 5.5em;
+        width: 4em;
         display: flex;
        margin-bottom: 1px;
     }

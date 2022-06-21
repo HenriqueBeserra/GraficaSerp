@@ -65,7 +65,6 @@ main section{
     display: flex;
     width: 100%;
     height: 40px;
-    min-width: 900px;
     justify-content: center;
     gap: 18px;
     align-items: center;
@@ -83,9 +82,6 @@ main section{
     padding-right: 100px;
 }
 
-.container-fluid, #navbar {
-    min-width: 900px;
-}
 
 .d-flex button:hover {
     background-color: rgb(187, 187, 187);
@@ -93,19 +89,16 @@ main section{
 .conteúdo-main-revistas {
     width: 90%;
     margin: 0  auto;
-    min-width: 900px;
 }
 
 .img-main-revistas {
     width: 100%;
-    min-width: 900px;
     height: 40em;
     margin: 20px auto;
 }
 
 .conteudo-listaderevistas {
     width: 100%;
-    min-width: 900px;
     margin: 80px auto;
     padding: 10px;
     text-align: center;
@@ -309,49 +302,3 @@ footer p {
     margin: 18px auto;
 }
 
-@media screen and (max-width: 800px) {
-    body {
-        width: 100%;
-    }
-    .header-content, .main-lista, footer{
-        width: auto;
-        margin: 0, auto;
-    }
-    .header-content {
-        display: flex;
-        padding: auto;
-        height: 14em;
-        align-items: center;
-        text-align: center;
-        flex-direction: column;
-        gap: 10px;
-    }
-    .imagem-header {
-        width: 5em;
-    }
-    .img-main-top {
-        height:14em ;
-    }
-    .main-content {
-        width: 100%;
-    }
-    .main-box, .main-text-graph, .localização {
-        width: 88%;
-    }
-    .img-main-list {
-        width: 18em;
-        height: 17em;
-        margin: 0 50px;
-    }
-    .localização-mapa {
-        width: auto;
-        margin: 0 auto;
-    }
-    .localização > h2 {
-        border-bottom: none;
-    }
-    footer ul {
-        font-size: 1em;
-        margin-left: 3%;
-    }
-}

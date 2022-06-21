@@ -113,6 +113,7 @@ main section{
 .listaderevistas-tituo{
     font-size: 3em;
 }
+
 .itens-revista-caixa {
     width: 18em;
     border-bottom: 0.2px solid rgba(49, 49, 49, 0.349);
@@ -141,6 +142,10 @@ main section{
     border-radius: 10px;
 }
 
+.descrição-main-produtos {
+    width: 940px;
+    margin: 0 auto;
+}
 /*Página das revistas ~ ^^*/
 
 

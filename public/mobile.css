@@ -1,0 +1,49 @@
+@media screen and (max-width: 800px) {
+    body {
+        width: 100%;
+    }
+    .header-content, .main-lista, footer{
+        width: auto;
+        margin: 0, auto;
+    }
+    .header-content {
+        display: flex;
+        padding: auto;
+        height: 14em;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .header-titulo {
+        font-size: 1.8em;
+    }
+    .imagem-header {
+        width: 5em;
+    }
+    .img-main-top {
+        height:14em ;
+    }
+    .main-content {
+        width: 100%;
+    }
+    .main-box, .main-text-graph, .localização {
+        width: 88%;
+    }
+    .img-main-list {
+        width: 18em;
+        height: 17em;
+        margin: 0 50px;
+    }
+    .localização-mapa {
+        width: auto;
+        margin: 0 auto;
+    }
+    .localização > h2 {
+        border-bottom: none;
+    }
+    footer ul {
+        font-size: 1em;
+        margin-left: 3%;
+    }
+}

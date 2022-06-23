@@ -1,0 +1,20 @@
+const tela = window.screen.width
+
+
+function changeHref (tela) {
+    console.clear()
+    if(tela > 600 ) {
+        let item = document.querySelector("#contatos")
+        item.href = ("../contatos/contatos.html")
+        
+        console.log("Pass")
+    }
+
+    if(tela < 600) {
+        let item = document.querySelector("#contatos")
+        item.href = ("../revistas/revistas.html")
+    }
+    console.log(tela)
+}
+
+window.document.addEventListener("resize", changeHref(tela) )

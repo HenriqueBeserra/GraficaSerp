@@ -12,7 +12,7 @@ function changeHref (tela) {
 
     if(tela < 600) {
         let item = document.querySelector("#contatos-revistas")
-        item.href = ("../home/index.html")
+        item.href = ("../contatos/cttMbl.html")
     }
     console.log(tela)
 }

@@ -1,4 +1,6 @@
-const tela = window.screen.width
+// const tela = window.screen.width
+const {getImgURL, getEscritor, getRevistas } = require ("../../apiBancodeDados/bdConexão")
+
 
 
 function changeHref (tela) {
@@ -17,4 +19,11 @@ function changeHref (tela) {
     console.log(tela)
 }
 
-window.document.addEventListener("resize", changeHref(tela) )
+// window.document.addEventListener("resize", changeHref(tela) )
+async function teste() {
+
+    const bd = await getImgURL()
+    console.log(bd.length)
+}
+console.clear()
+teste()

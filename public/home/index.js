@@ -3,14 +3,14 @@ const tela = window.screen.width
 
 function changeHref (tela) {
     console.clear()
-    if(tela > 600 ) {
+    if(tela > 900 ) {
         let item = document.querySelector("#contatos")
         item.href = ("../contatos/contatos.html")
         
         console.log("Pass")
     }
 
-    if(tela < 600) {
+    if(tela < 900) {
         let item = document.querySelector("#contatos")
         item.href = ("../contatos/cttMbl.html")
     }

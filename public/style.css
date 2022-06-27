@@ -187,6 +187,20 @@ main section{
     width: 6em;
 }
 
+.pedidos-revistas{
+    width: 50%;
+    margin: 80px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 1px solid gray;
+}
+
+#botão-pedidos {
+    
+    height: 3em;
+    color: blueviolet;
+}
 /*Página das revistas ~ ^^*/
 
 

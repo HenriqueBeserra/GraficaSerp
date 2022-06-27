@@ -146,6 +146,47 @@ main section{
     width: 940px;
     margin: 0 auto;
 }
+
+.descrição-produtos-one {
+    width: 18em;
+    margin: 8% 14%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 200px;
+
+}
+.descrição-produtos-two {
+    width: 18em;
+    margin: 8% 14%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 120px;
+
+}
+.descrição-produtos-first {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.descrição-produtos-first img {
+    width: 3em;
+}
+
+.descrição-produtos-second {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.descrição-produtos-second img {
+    width: 6em;
+}
+
 /*Página das revistas ~ ^^*/
 
 

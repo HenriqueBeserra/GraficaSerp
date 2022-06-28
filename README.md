@@ -13,5 +13,5 @@ ________________________________________________________________________________
 # Página Home
 ## Conta um pouco da hitória da serp e da sua gráfica.
 
-<img src="https://raw.githubusercontent.com/HenriqueBeserra/GraficaSerp/main/readmeView/Captura%20de%20tela%20de%202022-06-27%2019-53-06.png" width="500px">
+<img src="https://raw.githubusercontent.com/HenriqueBeserra/GraficaSerp/main/readmeView/Captura%20de%20tela%20de%202022-06-27%2019-53-06.png" width="800px">
 

@@ -27,3 +27,11 @@ ________________________________________________________________________________
 
 <img src="https://raw.githubusercontent.com/HenriqueBeserra/GraficaSerp/main/readmeView/Captura%20de%20tela%20de%202022-06-27%2019-53-15.png" width="800px">
 
+
+________________________________________________________________________________________________________________________________
+
+Este é um projeto que foi muito gratificante de desenvolver pois me mostrou a possibilidade de tornar todos os meus conhecimentos em algo palpável,produtivo e que vai gerar benefícios enormes aos clientes e gerentes de pedidos.
+
+Projeto desenvolvido durante 1 semana e meia para sua primeira versão. 
+Este é um projeto que mostra um pouco das minhas habilidades com HTM CSS e javascript.
+

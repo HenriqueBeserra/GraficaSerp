@@ -11,7 +11,7 @@ Desing moderno e robusto o projeto busca evoluir desde a história até os conta
 _____________________________________________________________________________________________________________________________
 
 # Página Home
-## Conta um pouco da hitória da serp e da sua gráfica.
+#### Conta um pouco da hitória da serp e da sua gráfica.
 
 <img src="https://raw.githubusercontent.com/HenriqueBeserra/GraficaSerp/main/readmeView/Captura%20de%20tela%20de%202022-06-27%2019-53-06.png" width="800px">
 

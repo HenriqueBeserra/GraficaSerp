@@ -222,20 +222,19 @@
         width: 50%;
     }
     .img-view {
-        width: 3.4em;
+        width: 3.8em;
         display: flex;
         align-items: center;
-        margin:1px 6px;
+        margin:1px 2px;
         padding-top: 1px;
     }
     .itens-revista-caixa {
-        width: 4em;
+        width: 4.9em;
         height: 5.6em;
-        margin: 30px 10px;
+        margin: 30px 2%;
         display: flex;
         align-items: center;
         flex-direction: column; 
-        justify-content: center;
     }
     #intimos {
         font-size: 12.159px;
@@ -243,8 +242,7 @@
     }
     #revistas-ul{
         width: 60%;
-        margin: 0 50px;
-        padding: none;
+        margin: 0 15%;
         display: flex;
         align-items: center;
     }

@@ -19,13 +19,14 @@ window.document.addEventListener("resize", changeHref(tela) )
 
 
 // Consulta ao banco de dados -->
-const {getImgURL, getEscritor, getRevistas } = require ("../../apiBancodeDados/bdConexão")
+const {getImgURL, getEscritor, getRevistas } = require("../../apiBancodeDados/bdConexão")
 
 async function teste() {
 
     const bd = await getImgURL()
     console.log(bd)
 }
+teste();
 
 console.clear()
-teste()
+

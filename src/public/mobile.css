@@ -1,4 +1,4 @@
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 1260px) {
    /* Página home => */
     body {
         width: 100%;
@@ -68,57 +68,53 @@
         height: 20em;
     }
     .revistasView{
-        width: 50%;
-        margin: 200px;
-
+        width: 100%;
     }
     .view-revista {
         width: 4em;
     }
-    .revistas-ul{
+    #revistas-ul{
         width: 80%;
-        margin: 0 20px;
+        margin: 0 auto;
+        padding: none;
         display: flex;
-        
+        align-items: center;
     }
 
     .conteudo-listaderevistas{
-        height: 18em;
+        height: 100%;
     }
     .listaderevistas-tituo {
         font-size: 30px;
     }
     .itens-revista-caixa {
-        width: 5em;
-        height: 8em;
-        margin: 0 3px;
+        width: 6em;
+        height: 6.3em;
+        margin: 0 10px;
         display: flex;
         align-items: center;
         flex-direction: column;
+    }
         
-    }
-    .img-view {
-        width: 4em;
-        display: flex;
-       margin-bottom: 1px;
-    }
-    .view-revista {
-        height: 8px;
-        display: flex;
-        align-items: center;
-
-    }
     .view-revista h2 {
         display: flex;
         font-size: 1.1em;
         text-align: start;
     }
+    .img-view {
+        width: 4.4em;
+        display: flex;
+        align-items: center;
+        margin:1px 3px;
+    }
+   
     .view-revista p {
         display: none;
+        font-size: 10%;
         
     }
     #intimos {
-        font-size: 18.159px;
+        font-size: 14.159px;
     }
     
     .contatos-tituo {
@@ -136,4 +132,120 @@
         padding: 10%;
     }
 
+    .descrição-main-produtos {
+        width: 95%;
+        padding-left: 4%;
+    }
+        
+
+    .descrição-produtos-one, .descrição-produtos-two {
+        width: 10%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        gap:100px;
+    }
+    .descrição-produtos-one h4 {
+        font-size: 1.2em;
+    }
+    .descrição-produtos-two h4{
+        font-size: 1.2em;
+    }
+    .descrição-produtos-one img {
+        font-size: 100%;
+    }
+    .descrição-produtos-two img{
+        font-size: 100%;
+    }
+}
+
+@media screen and (max-width:990px) {
+    .descrição-produtos-one, .descrição-produtos-two {
+        width: 10%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        gap: 100px;
+    }
+    .descrição-produtos-one h4 {
+        font-size: 1.1em;
+    }
+    .descrição-produtos-two h4{
+        font-size: 1.1em;
+    }
+    .descrição-produtos-one img {
+        width: 50%;
+    }
+    .descrição-produtos-two img{
+        width: 50%;
+    }
+    .img-view {
+        width: 4em;
+        display: flex;
+        align-items: center;
+    }
+    .itens-revista-caixa {
+        width: 5.8em;
+        height: 5.6em;
+        margin: 30px 10px;
+        display: flex;
+        align-items: center;
+        flex-direction: column; 
+        justify-content: center;
+    }
+    #intimos {
+        font-size: 12.159px;
+    }
+    
+}
+
+@media screen and (max-width:479px) {
+    .descrição-produtos-one, .descrição-produtos-two {
+        width: 10%;
+        height: auto;
+        display: flex;
+        flex-direction:column ;
+        align-items: center;
+        gap: 100px;
+        margin: 25% 30%;
+    }
+    .descrição-produtos-one h4 {
+        font-size: 1em;
+    }
+    .descrição-produtos-two h4{
+        font-size: 1em;
+    }
+    .descrição-produtos-one img {
+        width: 50%;
+    }
+    .descrição-produtos-two img{
+        width: 50%;
+    }
+    .img-view {
+        width: 3.4em;
+        display: flex;
+        align-items: center;
+        margin:1px 6px;
+        padding-top: 1px;
+    }
+    .itens-revista-caixa {
+        width: 4em;
+        height: 5.6em;
+        margin: 30px 10px;
+        display: flex;
+        align-items: center;
+        flex-direction: column; 
+        justify-content: center;
+    }
+    #intimos {
+        font-size: 12.159px;
+        margin-left: 8%;
+    }
+    #revistas-ul{
+        width: 60%;
+        margin: 0 50px;
+        padding: none;
+        display: flex;
+        align-items: center;
+    }
 }

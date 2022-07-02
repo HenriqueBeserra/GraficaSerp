@@ -16,7 +16,7 @@ main section{
     height: 12em;
     align-items: center;
     justify-content: space-around;
-    background-color: rgb(201, 218, 230);
+    background-color: rgb(11, 48, 75);
 }
     
 
@@ -25,8 +25,8 @@ main section{
 }
 
 .header-titulo {
-    font-size: 2em;
-    color: rgb(42, 110, 165);
+    font-size: 5em;
+    color: rgb(203, 231, 253);
     font-weight:520;
 }
 
@@ -44,7 +44,7 @@ main section{
 }
 
 .ihead a:hover {
-    color: rgb(11, 28, 100);
+    color: rgb(140, 151, 199);
     font-style:oblique;
     transition:ease-in 0.1s;
 }
@@ -105,7 +105,7 @@ main section{
     background: linear-gradient(220deg, rgb(170, 159, 175), rgb(129, 158, 187), rgb(193, 193, 248));
 }
 
-.revistas-ul {
+#revistas-ul {
     display: flex;
     justify-content: center;
 }
@@ -200,6 +200,10 @@ main section{
     
     height: 3em;
     color: blueviolet;
+}
+
+.revistas-all {
+    margin: 28px auto;
 }
 /*Página das revistas ~ ^^*/
 

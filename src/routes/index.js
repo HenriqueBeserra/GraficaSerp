@@ -5,6 +5,7 @@ const port = 3000
 
 app.use(express.static('../public'));
 
+
 app.get("/teste", (req, res)=> {
 
   res.json({mensagem:"Site online"})

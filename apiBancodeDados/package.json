@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "\"Api para servir as informações das revistas da Serp\"",
   "main": "main.js",
+  "engines": {
+    "node": "14.x"
+  },
   "scripts": {
     "build": "node ./main.js"
   },

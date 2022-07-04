@@ -4,7 +4,7 @@
   "description": "\"Api para servir as informações das revistas da Serp\"",
   "main": "main.js",
   "scripts": {
-    "build": "nodemon ./main.js"
+    "build": "node ./main.js"
   },
   "author": "Henrique Beserra",
   "license": "MIT",

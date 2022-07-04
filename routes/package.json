@@ -4,7 +4,7 @@
   "description": "\"Monitorando o sistema com node e express\"",
   "main": "index.js",
   "scripts": {
-    "build": "node ./index.js"
+    "build": "nodemon app.js"
   },
   "dependencies": {
     "@supabase/supabase-js": "^1.35.3",

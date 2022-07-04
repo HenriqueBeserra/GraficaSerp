@@ -1,0 +1,15 @@
+{
+  "name": "apibanco-de-dados",
+  "version": "1.0.0",
+  "description": "\"Api para servir as informações das revistas da Serp\"",
+  "main": "main.js",
+  "scripts": {
+    "build": "nodemon ./main.js"
+  },
+  "author": "Henrique Beserra",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.18"
+  }
+}

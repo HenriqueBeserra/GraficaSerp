@@ -1,11 +1,15 @@
 
 const express = require('express')
 const app = express()
+<<<<<<< HEAD:src/routes/index.js
 const PORT = process.env.PORT || 3000
 
 
+=======
+const port = 3001;
+>>>>>>> Desenvolvimento:routes/app.js
 
-app.use(express.static('../public'));
+app.use(express.static('../src/public'));
 
 app.get("/on", (req, res)=> {
 

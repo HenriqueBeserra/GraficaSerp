@@ -5,8 +5,8 @@ const port = 3333;
 
 //rotas
 const rotas = require("./routes/rotas");
-app.use("/app", rotas)
 
+app.use("/app", rotas);
 
 //servidor
-app.listen(port, ()=> {console.log("APP Online: http://localhost:3333")})
+app.listen(port, ()=> {console.log("APP Online: http://localhost:3333")});

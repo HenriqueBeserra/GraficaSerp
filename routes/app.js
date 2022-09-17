@@ -1,19 +1,17 @@
 
-const express = require('express')
-const app = express()
-<<<<<<< HEAD:src/routes/index.js
-const PORT = process.env.PORT || 3000
+const express = require('express');
+const app = express();
+
+const PORT = process.env.PORT || 3002
 
 
-=======
-const port = 3001;
->>>>>>> Desenvolvimento:routes/app.js
+
 
 app.use(express.static('../src/public'));
 
 app.get("/on", (req, res)=> {
 
-  res.json({mensagem:"Site online at /home/index.html"})
+  res.json({mensagem:`Site online at http://localhost:${PORT}/home/index.html`})
 
 })
 

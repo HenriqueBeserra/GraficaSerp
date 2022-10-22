@@ -368,3 +368,16 @@ footer p {
     margin: 18px auto;
 }
 
+footer > .footer  {
+    height: 4em;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.footer > p {
+    margin-bottom: -10px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}

@@ -11,9 +11,9 @@ function changeHref (tela) {
 
     if(tela < 600) {
         let item = document.querySelector("#contatos-revistas");
-        let item2 = document.querySelector("#contatosButton");
+        let item3 = document.querySelector("#Chamado");
         item.href = ("../contatos/cttMbl.html");
-        item2.href = ("../contatos/cttMbl.html");
+        item3.innerHTML = '';
     }
     console.log(tela)
 }

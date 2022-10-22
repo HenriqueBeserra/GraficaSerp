@@ -193,6 +193,13 @@
         flex-direction: column; 
         justify-content: center;
     }
+
+    .view-revista > #Chamado::before{
+        font-size: 14px;
+        color: blue;
+        content: "Chamado de Deus";
+    }
+
     #intimos {
         font-size: 12.159px;
     }

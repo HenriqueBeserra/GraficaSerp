@@ -12,7 +12,9 @@ function changeHref (tela) {
 
     if(tela < 900) {
         let item = document.querySelector("#contatos")
-        item.href = ("../contatos/cttMbl.html")
+        let item2 = document.querySelector("#contatosButton");
+        item.href = ("../contatos/cttMbl.html");
+        item2.href = ("../contatos/cttMbl.html")
     }
     console.log(tela)
 }

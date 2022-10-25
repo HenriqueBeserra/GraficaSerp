@@ -71,7 +71,7 @@
         width: 100%;
     }
     .view-revista {
-        width: 4em;
+        width: 5em;
     }
     #revistas-ul{
         width: 80%;
@@ -89,7 +89,7 @@
     }
     .itens-revista-caixa {
         width: 6em;
-        height: 6.3em;
+        height: 6.4em;
         margin: 0 10px;
         display: flex;
         align-items: center;
@@ -105,7 +105,7 @@
         width: 4.4em;
         display: flex;
         align-items: center;
-        margin:1px 3px;
+        margin:4px 6px;
     }
    
     .view-revista p {
@@ -134,7 +134,7 @@
 
     .descrição-main-produtos {
         width: 95%;
-        padding-left: 4%;
+        padding-left: 19%;
     }
         
 
@@ -181,6 +181,7 @@
     }
     .img-view {
         width: 4em;
+        margin: 2px auto;
         display: flex;
         align-items: center;
     }
@@ -195,8 +196,8 @@
     }
 
     .view-revista > #Chamado::before{
-        font-size: 14px;
-        color: blue;
+        font-size: 0.64em;
+        color: rgb(0, 0, 0);
         content: "Chamado de Deus";
     }
 
@@ -229,15 +230,16 @@
         width: 50%;
     }
     .img-view {
-        width: 3.8em;
+        width: 4.5em;
         display: flex;
         align-items: center;
-        margin:1px 2px;
-        padding-top: 1px;
+        margin: 4px auto;
+        margin-top: 6px;
+        padding-top: 2.2px;
     }
     .itens-revista-caixa {
         width: 4.9em;
-        height: 5.6em;
+        height: 6em;
         margin: 30px 2%;
         display: flex;
         align-items: center;
@@ -252,5 +254,11 @@
         margin: 0 15%;
         display: flex;
         align-items: center;
+    }
+    .view-revista > #Chamado::before{
+        font-size: -1.1em;
+        margin-left: 6px;
+        color: rgb(0, 0, 0);
+        content: "Chamado de Deus";
     }
 }

@@ -53,7 +53,7 @@
 }
 
 .produtos {
-    width: 63.2%;
+    width: 63.5%;
     background-color: rgba(0, 67, 74, 0.168);
     margin: 0 10%;
     margin-top: 50px;
@@ -110,7 +110,7 @@ footer {
     display: flex;
     position: absolute;
     width: 100%;
-    bottom: 948;
+    bottom: 10;
     margin-top: 55px;
     justify-content: center;
 }

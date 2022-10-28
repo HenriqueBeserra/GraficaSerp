@@ -5,14 +5,19 @@ const urlProdutos = "https://apis-erp.vercel.app/app/revistas";
 const urlImg = "https://apis-erp.vercel.app/app/img";
 const ulrEscritor = "https://apis-erp.vercel.app/app/escritor";
 
+const myInit = { method: 'GET',
+               mode: 'no-cors',
+               cache: 'default' };
+
+
 
 async function getEscritor(id){
 
-    fetch(ulrEscritor)
+    fetch(ulrEscritor, myInit)
     .then( async response => {
-        let conteudo = await response.json();
         
-        return conteudo;    
+        return response.json()
+
     })
     .then( async data => {
 
@@ -26,11 +31,11 @@ async function getEscritor(id){
 
 async function getProdutos(id){
 
-    fetch(urlProdutos)
+    fetch(urlProdutos, myInit)
     .then( async response => {
-        let conteudo = await response.json();
         
-        return conteudo;    
+        return response.json()   
+
     })
     .then( async data => {
         
@@ -44,11 +49,11 @@ async function getProdutos(id){
 
 async function getImage(id){
     
-    fetch(urlImg)
+    fetch(urlImg, myInit)
     .then( async response => {
-        let conteudo = await response.json();
         
-        return conteudo;    
+        return response.json()  
+
     })
     .then( async data => {
         
@@ -61,23 +66,25 @@ async function getImage(id){
 }
 
 const produtos = {  
-
+    
     teste: () => console.log("Esta exportação deu certo"),
 
     app: async () =>  {
 
-        fetch(urlProdutos)
-        .then( async datas => {
+
+        
+        fetch(urlProdutos, myInit)
+        .then( async response => {
             
-            let ruth = await datas.json();
-            return ruth;
+            return response.json()
             
         })
         .then( async produtos  => {
             
             
 
-
+            let div = document.querySelector('.caixa-com-produto')
+            console.log(div)
             // let content = produtos.informação;
             // let quantidade = produtos.informação.length;
             // const box = document.querySelector('.caxa-com-produto');
@@ -97,5 +104,4 @@ const produtos = {
 
 }
 
-console.log('Este algoritmo deu certoooo')
-
+getImage()
